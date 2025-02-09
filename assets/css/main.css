@@ -80,7 +80,12 @@ body {
     max-width: 15%;
 }
 
-.brand img {
+.top-image {
+    max-width: 55%;
+    margin: 0 auto;
+}
+
+img {
     width: 100%;
 }
 
