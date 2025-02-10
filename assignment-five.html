@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - WP Pusher</title>
+    <link rel="stylesheet" href="./assets/css/checkout.css">
+</head>
+<body>
+    <header class="header__container">
+        <div class="main-container">
+            <img src="./assets/images/logo-button.png" alt="WP Pusher Logo">
+        </div>
+        <nav>
+            <a href="#">Download</a>
+            <a href="#">Learn More</a>
+            <a href="#">Pricing</a>
+            <a href="#">Help</a>
+            <button class="account-btn">Account</button>
+        </nav>
+    </header>
+    <main>
+        <section class="second-container">
+         <div class="checkout-form">
+          <h2>CAHECKOUT</h2>
+
+          <form>
+            <!--Basic information-->
+            <div class="section-one">
+                <h3><span class="circle">1</span>Your Basic Information</h3>
+                <div class="input-group">
+                <div>
+                    <label>First Name</label>
+                    <input type="text" placeholder="jane" value="jane" readonly>
+                </div>
+                <div>
+                    <label>Last Name</label>
+                    <input type="text" placeholder="doe" value="doe" readonly>
+                </div>
+                </div>
+                <div>
+                    <label>Email</label>
+                    <input type="text" placeholder="janedoe@example.com" value="janedoe@example.com" readonly>
+                </div>
+            </div>
+
+               <!---payment information-->
+               <div class="section-two">
+                <h3><span class="circle">2</span>Your payment Information</h3>
+                <label>Credit Card</label>
+                <div class="credit-card-group">
+                    <input type="text" placeholder="Card Number">
+                <input type="text" placeholder="MM / YY">
+                <input type="text" placeholder="CVC">
+                </div>
+                </div>
+
+                <!---Purchase button-->
+                <button type="submit" class="buy-btn">Buy WP Phuser</button>
+ 
+                <!---help section-->
+                <div class="help-section">
+                    <p>Need any help? Dont hesitate to <a href="#">contact support</a></p>
+                    <p class="powered-by">Powered by <strong>Stripe</strong></p>
+                </div>
+                 </form>
+         </div>
+         <!----pricing sidebar-->
+         <aside class="pricing-details">
+         <h3>Freelancer</h3>
+         <p class="price">99$ <span>/ year</span></p>
+         <p class="renewal">Authomatically renews after 1 year</p>
+         <ul>
+            <li>&#x2713; Use on 5 client sites</li>
+            <li>&#x2713; Private repositories</li>
+            <li>&#x2713; Email support</li>
+         </ul>
+         <p>Need 20 client sites? <a href="#" class="plan">Switch to new Agency plan</a></p>
+         <hr>
+         <blockquote>FTP is horrible to deal with. WP phuser solves that issue, and the customer support is awesome!</blockquote>
+         <div class="testimonial">
+          <!----attach an image here-->
+         </div>
+          </aside>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2018 WP Phuser IVS. <a href="#">Terms of service</a></p>
+    </footer>
+</body>
+</html>

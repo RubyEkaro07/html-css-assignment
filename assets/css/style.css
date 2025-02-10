@@ -1,0 +1,44 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color:palevioletred;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    }
+    
+    .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .card {
+    background-color:pink;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    position: relative;
+    }
+    
+    .header{
+        background-color: aqua;
+        color: black;
+        font-weight: bold;
+        text-align: center;
+        position: absolute;
+        padding: 19px 21px;
+        font-size: 1.2em;
+        left: 8%;
+        right: 8%;
+        top: -22px;
+        border-radius: 14px;
+    }
+    
+    .content{
+        font-size: 0.9em;
+        line-height: 1.5;
+        color:white;
+        margin-top: 30px;
+    }

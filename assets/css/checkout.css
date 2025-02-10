@@ -1,0 +1,186 @@
+/* General reset*/
+
+body{
+    font-family: Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fa;
+    }
+
+    /*header*/
+    header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 20px;
+     background-color: white;
+    }
+    .header img{
+        padding: 20px 50px;
+    }
+
+    nav a {
+        margin-right: 15px;
+        text-decoration: none;
+        color: blueviolet;
+    }
+    .account-btn{
+     padding: 8px 15px; 
+     border: 1px solid #ccc;
+     background: transparent;
+     cursor: pointer;
+     border-radius: 5px;
+    }
+
+    .header__container {
+        display: flex;
+        align-items: center;
+    }
+    /*main checkout section*/
+
+    .main-container {
+        width: 15%;
+    }
+
+    .main-container img {
+        width: 100%;
+    }
+
+    /*checkout form*/
+
+    .second-container{
+        width: 60%;
+        padding-right: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+    }
+    .circle {
+        width: 24px;
+        height: 24px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #008060;
+        color: white;
+        font-size: 14px;
+        border-radius: 50%;
+        margin-right: 8px;
+    }
+    .input-group {
+      display: flex;
+      gap: 10px;
+    }
+    .input-group div{
+        flex: 1;
+    }
+    label{
+        display: block;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+    input{
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background-color: #f1f3f6;
+    }
+
+    /*credit card inputs*/
+
+    .credit-card-group{
+        display: flex;
+        gap: 10px;
+    }
+    .credit-card-group input {
+        flex: 1;
+    }
+
+    /*button*/
+    .buy-btn{
+        width: 100%;
+        padding: 15px;
+        background-color:#008060;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    .buy-btn:hover {
+        background-color: #006e50;
+    }
+
+    /*help section*/
+    .help-section {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .help-section p {
+        font-size: 14px;
+    }
+    .help-section a {
+        color: #008060;
+        text-decoration: none;
+    }
+     .powered-by{
+        font-size: 12px;
+        color: #777;
+     }
+
+     /*pricing sidebar*/
+     .pricing-details{
+        width: 40%;
+        background-color: #004080;
+        color: white;
+        padding: 20px;
+        border-radius: 8px;
+        
+     }
+     .price{
+        font-size: 24px;
+        font-weight: bold;
+     }
+     .renewal {
+        font-size: 14px;
+        margin-bottom: 15px;
+        color: seashell;
+     }
+     .plan{
+         color: #777;
+     }
+
+     ul{
+        list-style: none;
+        padding: 0;
+     }
+     ul li{
+        margin-bottom: 10px;
+     }
+     
+     blockquote{
+        font-style: italic;
+        margin: 20px 0;
+     }
+     .testimonial{
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+     }
+     footer{
+        text-align: center;
+        padding: 20px;
+        font-size: 14px;
+        color: #777;
+     }

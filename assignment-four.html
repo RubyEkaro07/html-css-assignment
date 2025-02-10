@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up | Individual</title>
+    <link rel="stylesheet" href="./assets/css/signup.css">
+</head>
+<body>
+
+<div id="wrapper">
+    <div class="forms">
+        <img src="./assets/images/images.png" alt="logo" />
+    </div>
+    <div class="forms form__div">
+        <div class="form__container">
+            <form action="#">
+                <div class="input__container">
+                    <div class="outter_control">
+                        <div class="form__control">
+                            <label for="firstname">Firstname</label>
+                            <input value="" placeholder="Enter Name" />
+                        </div>
+                        <div class="form__control">
+                            <label for="lastname">Lastname</label>
+                            <input value="" placeholder="Enter Name" />
+                        </div>
+                        <div class="form__control">
+                            <label for="gender">Gender</label>
+                            <select id="gender" name="gender" required>
+                                <option value="disabled selected">Select Here</option>
+                                <option value="male">Male</option>
+                                <option value="Female">Female</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form__control">
+                            <label for="dob">Date of Birth</label>
+                            <input type="date" id="dob" name="dob" required>
+                        </div>
+                        <div class="form__control">
+                            <label for="weight">Weight (KG)</label>
+                            <input type="date" id="weight" name="weight" placeholder="Enter Weight" required>
+                        </div>
+                        <div class="form__control">
+                            <label for="height">Hight (CM)</label>
+                            <input type="number" id="height" name="height" placeholder="Enter Height" />
+                        </div>
+                        
+                    </div>
+
+                    <div class="form__control fullwidth">
+                        <label for="activity-level">Activity Level</label>
+                        <select id="activity-level" name="activity-level" required>
+                            <option value="disabled selected">Select Here</option>
+                            <option value="low">Low</option>
+                            <option value="medium">Medium</option>
+                            <option value="high">Heigh</option>
+                        </select>
+                    </div>
+                    <div class="form__control fullwidth">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" placeholder="Enter Password" required>
+                    </div>
+                    
+
+                    <button class="bttn-register" type="submit">Register</button>
+                    <p class="terms">
+                        By clicking register, you agree to our <a href="#">Terms of Use</a> and our <a href="#">Privacy policy</a>
+                    </p>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+    
+</body>
+</html>
