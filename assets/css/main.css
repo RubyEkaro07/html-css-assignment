@@ -219,10 +219,20 @@ h2 span.pop {
     /* width: 32%; */
 }
 
+.outline {
+    border: 1px solid rgba(0, 101, 254, 1);
+}
+
 .pricing {
     align-items: center;
     justify-content: center;
     gap: 12px;
+}
+
+.pricing-buttons {
+    justify-content: center;
+    padding: 55px 0px;
+    gap: 8px;
 }
 
 .subs h2 {
@@ -259,4 +269,47 @@ h2 span.pop {
 .sub-list .list-bullet img {
     width: 13px;
     height: 13px;
+}
+
+.selected {
+    background-image: url("../images/bg.avif");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+}
+
+.selected button {
+    width: 100%;
+    letter-spacing: 1.5px;
+}
+
+.form-card {
+    background-color: white;
+    padding: 25px 32px;
+    border-radius: 9px;
+}
+
+.form-card p {
+    margin-top: 25px;
+}
+
+.form-input {
+    border: 1px solid rgba(0, 101, 254, 1);
+    padding: 14px 19px;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 13px;
+    color:rgba(0, 101, 254, 1) !important;
+}
+
+.bttm-half {
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.bttm-half .halves {
+    width: 48%;
 }
