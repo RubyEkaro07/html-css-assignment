@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+/* .page-border {
+    overflow: hidden;
+} */
+
 body {
     font-family: "Poppins", serif;
     font-size: 12px;
@@ -312,4 +316,69 @@ h2 span.pop {
 
 .bttm-half .halves {
     width: 48%;
+}
+
+.faqs h2 {
+    text-align: center;
+}
+
+.question--item {
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    margin: 7px auto;
+    border-bottom: 1px solid #efefef;
+}
+
+.answer {
+    margin-bottom: 20px;
+}
+
+.question--item .question img {
+    width: 2%;
+}
+
+.question--item .question {
+    padding: 15px 0;
+}
+
+.question--item .question p {
+    width: 96%;
+}
+
+.footer {
+    padding: 60px 140px;
+    position: relative;
+}
+
+.bg-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.bg-img-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.bg-img img {
+    width: 55%;
+}
+
+.resources {
+    margin-bottom: 36px;
+}
+
+.resources h4 {
+    margin-bottom: 16px;
+}
+
+.resources ul {
+    list-style: none;
+}
+
+.resources ul li {
+    margin-bottom: 2px;
 }
